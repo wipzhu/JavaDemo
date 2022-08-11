@@ -6,40 +6,40 @@ public class SwitchDemo {
 
     public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
-//        System.out.println("ÇëÊäÈëÒ»¸öÕûÊı£º");
+//        System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼š");
 //        int number = sc.nextInt();
 //
 //        switch (number) {
 //            case 1 -> {
-//                System.out.println("ÊäÈëµÄÊıÖµÊÇ1");
+//                System.out.println("è¾“å…¥çš„æ•°å€¼æ˜¯1");
 //            }
-//            case 20 -> System.out.println("ÊäÈëµÄÊıÖµÊÇ20");
-//            default -> System.out.println("Ã»ÓĞÕâ¸öÑ¡Ïî");
+//            case 20 -> System.out.println("è¾“å…¥çš„æ•°å€¼æ˜¯20");
+//            default -> System.out.println("æ²¡æœ‰è¿™ä¸ªé€‰é¡¹");
 //        }
 
 //        Scanner sc = new Scanner(System.in);
-//        System.out.println("ÇëÊäÈë½ñÌìÊÇĞÇÆÚ¼¸");
+//        System.out.println("è¯·è¾“å…¥ä»Šå¤©æ˜¯æ˜ŸæœŸå‡ ");
 //        int week = sc.nextInt();
 //
 //        switch (week) {
-//            case 1,2,3,4,5 -> System.out.println("½ñÌìÊÇ¹¤×÷ÈÕ");
+//            case 1,2,3,4,5 -> System.out.println("ä»Šå¤©æ˜¯å·¥ä½œæ—¥");
 //
-//            case 6,7 -> System.out.println("½ñÌìÊÇĞİÏ¢ÈÕ");
-//            default -> System.out.println("Ã»ÓĞÕâ¸öĞÇÆÚ");
+//            case 6,7 -> System.out.println("ä»Šå¤©æ˜¯ä¼‘æ¯æ—¥");
+//            default -> System.out.println("æ²¡æœ‰è¿™ä¸ªæ˜ŸæœŸ");
 //
 //        }
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÒ»¸öÕûÊı±íÊ¾ÄúµÄÑ¡Ôñ£º");
+        System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°è¡¨ç¤ºæ‚¨çš„é€‰æ‹©ï¼š");
 
         int choose = sc.nextInt();
 
         switch (choose) {
-            case 1 -> System.out.println("»úÆ±²éÑ¯");
-            case 2 -> System.out.println("»úÆ±Ô¤¶©");
-            case 3-> System.out.println("»úÆ±¸ÄÇ©");
-//            case 4 -> System.out.println("ÍË³ö·şÎñ");
-            default -> System.out.println("ÍË³ö·şÎñ");
+            case 1 -> System.out.println("æœºç¥¨æŸ¥è¯¢");
+            case 2 -> System.out.println("æœºç¥¨é¢„è®¢");
+            case 3-> System.out.println("æœºç¥¨æ”¹ç­¾");
+//            case 4 -> System.out.println("é€€å‡ºæœåŠ¡");
+            default -> System.out.println("é€€å‡ºæœåŠ¡");
         }
     }
 }

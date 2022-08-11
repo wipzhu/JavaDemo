@@ -2,11 +2,11 @@ package com.wipzhu.loopdemo;
 
 public class Test4 {
     public static void main(String[] args) {
-        //·âÆß¹ı
+        //å°ä¸ƒè¿‡
         for (int i = 1; i <= 100; i++) {
-            //7µÄ±¶Êı£¬¸öÎ»°üº¬7£¬Ê®Î»°üº¬7
+            //7çš„å€æ•°ï¼Œä¸ªä½åŒ…å«7ï¼Œåä½åŒ…å«7
             if ((i % 7 == 0) || (i % 10 == 7) || (i / 10 % 10 == 7)) {
-                System.out.println("¹ı");
+                System.out.println("è¿‡");
                 continue;
             }
 

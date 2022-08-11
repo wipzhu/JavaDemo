@@ -5,7 +5,7 @@ public class whileDemo {
 
         int i= 1;
         while (i <= 100) {
-            System.out.println("��ǰֵ�ǣ�" + i);
+            System.out.println("当前值是：" + i);
             i++;
         }
     }

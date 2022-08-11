@@ -14,6 +14,6 @@ public class Test1 {
             count++;
         }
 
-        System.out.println("ÕÛµşµÄ´ÎÊı£º" + count);
+        System.out.println("æŠ˜å çš„æ¬¡æ•°ï¼š" + count);
     }
 }

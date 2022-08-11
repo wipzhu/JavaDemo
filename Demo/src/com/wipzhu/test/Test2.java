@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Test2 {
     public static void main(String[] args) {
 
-        // ÊäÈëµÄÁ½¸öÕûÊıÓĞÒ»¸ö6»òÕßÁ½¸öÕûÊıµÄºÍÊÇ6µÄ±¶ÊıÊä³öÎªtrue£¬ÆäËûÎªfalse
+        // è¾“å…¥çš„ä¸¤ä¸ªæ•´æ•°æœ‰ä¸€ä¸ª6æˆ–è€…ä¸¤ä¸ªæ•´æ•°çš„å’Œæ˜¯6çš„å€æ•°è¾“å‡ºä¸ºtrueï¼Œå…¶ä»–ä¸ºfalse
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("ÇëÊäÈëÒ»¸öÕûÊı£º");
+        System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼š");
         int a = scanner.nextInt();
-        System.out.println("ÇëÊäÈëÁíÒ»¸öÕûÊı£º");
+        System.out.println("è¯·è¾“å…¥å¦ä¸€ä¸ªæ•´æ•°ï¼š");
         int b = scanner.nextInt();
 
         System.out.println(a == 6 || b ==6 || ((a + b) % 6 == 0));

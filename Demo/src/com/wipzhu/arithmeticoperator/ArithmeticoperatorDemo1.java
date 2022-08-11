@@ -24,11 +24,11 @@ public class ArithmeticoperatorDemo1
 
 //        Scanner sc = new Scanner(System.in);
 //
-//        System.out.println("ÇëÊäÈëÒ»¸öÈıÎ»Êı£º");
+//        System.out.println("è¯·è¾“å…¥ä¸€ä¸ªä¸‰ä½æ•°ï¼š");
 //        int i = sc.nextInt();
 //
-//        System.out.println("¸öÎ»ÊıÊÇ£º" + (i % 10));
-//        System.out.println("Ê®Î»ÊıÊÇ£º" + (i / 10 % 10));
-//        System.out.println("°ÙÎ»ÊıÊÇ£º" + (i / 100% 10));
+//        System.out.println("ä¸ªä½æ•°æ˜¯ï¼š" + (i % 10));
+//        System.out.println("åä½æ•°æ˜¯ï¼š" + (i / 10 % 10));
+//        System.out.println("ç™¾ä½æ•°æ˜¯ï¼š" + (i / 100% 10));
     }
 }

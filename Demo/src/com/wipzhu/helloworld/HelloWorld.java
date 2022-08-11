@@ -8,14 +8,14 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("hello world!");
 
-        String name = "ÖìĞ¡»¨";
+        String name = "æœ±å°èŠ±";
 
         Scanner sc = new Scanner(System.in);
 
-        //¼üÅÌÂ¼Èë
-        System.out.println("ÇëÊäÈëÕûÊıa£º");
+        //é”®ç›˜å½•å…¥
+        System.out.println("è¯·è¾“å…¥æ•´æ•°aï¼š");
         int a = sc.nextInt();
-        System.out.println("ÇëÊäÈëÕûÊıb£º");
+        System.out.println("è¯·è¾“å…¥æ•´æ•°bï¼š");
         int b = sc.nextInt();
 
         System.out.println("a + b = " + (a + b));

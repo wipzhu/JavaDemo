@@ -4,24 +4,24 @@ import java.util.Scanner;
 
 public class Test5 {
     public static void main(String[] args) {
-        //ÇóÖÊÊı
+        //æ±‚è´¨æ•°
         Scanner sc = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÒ»¸öÕıÕûÊı£º");
+        System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°ï¼š");
         int maxInt = sc.nextInt();
 
-        boolean flag = true;// ÊÇ·ñÊÇÖÊÊı
+        boolean flag = true;// æ˜¯å¦æ˜¯è´¨æ•°
         for (int i = 2; i < maxInt; i++) {
-            //ÅĞ¶ÏÇø¼äÄÚ£¬maxIntÄÜ·ñ±»iÕû³ı£¬Èç¹ûÃ»ÓĞÔòÊÇÖÊÊı
+            //åˆ¤æ–­åŒºé—´å†…ï¼ŒmaxIntèƒ½å¦è¢«iæ•´é™¤ï¼Œå¦‚æœæ²¡æœ‰åˆ™æ˜¯è´¨æ•°
             if (maxInt % i == 0) {
                 flag = false;
                 break;
             }
         }
-        System.out.println(maxInt + (flag ? "ÊÇÖÊÊı" : "²»ÊÇÖÊÊı"));
+        System.out.println(maxInt + (flag ? "æ˜¯è´¨æ•°" : "ä¸æ˜¯è´¨æ•°"));
 
-        // ÓÅ»¯·½°¸
-        // Ò»¸öÊıÈç¹ûÊÇÖÊÊı£¬ÄÇÃ´[2,Õâ¸öÊıµÄËãÊõÆ½·½¸ù]Çø¼äµÄÊı¶¼²»ÄÜ±»Õâ¸öÊıÕû³ı
-        /*for (int i = 2; i <= Õâ¸öÊıµÄËãÊıÆ½·½¸ù; i++) {
+        // ä¼˜åŒ–æ–¹æ¡ˆ
+        // ä¸€ä¸ªæ•°å¦‚æœæ˜¯è´¨æ•°ï¼Œé‚£ä¹ˆ[2,è¿™ä¸ªæ•°çš„ç®—æœ¯å¹³æ–¹æ ¹]åŒºé—´çš„æ•°éƒ½ä¸èƒ½è¢«è¿™ä¸ªæ•°æ•´é™¤
+        /*for (int i = 2; i <= è¿™ä¸ªæ•°çš„ç®—æ•°å¹³æ–¹æ ¹; i++) {
         }*/
     }
 

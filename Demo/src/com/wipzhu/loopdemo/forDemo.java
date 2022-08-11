@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class forDemo {
     public static void main(String[] args) {
 //        for (int i = 1; i <= 10; i++) {
-//            System.out.println("µ±Ç°ÖµÊÇ£º" + i);
+//            System.out.println("å½“å‰å€¼æ˜¯ï¼š" + i);
 //        }
 //
 //        System.out.println('\n');
 //
 //        for (int i = 10; i >= 1;i--) {
-//            System.out.println("µ±Ç°ÖµÊÇ£º" + i);
+//            System.out.println("å½“å‰å€¼æ˜¯ï¼š" + i);
 //        }
 
 //        int sum = 0;
@@ -19,12 +19,12 @@ public class forDemo {
 //            if (i % 2 == 0) sum += i;
 //        }
 //
-//        System.out.println("1µ½100ÄÚÅ¼ÊıÇóºÍ£º" + sum);
+//        System.out.println("1åˆ°100å†…å¶æ•°æ±‚å’Œï¼š" + sum);
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëµÚÒ»¸öÕûÊı£º");
+        System.out.println("è¯·è¾“å…¥ç¬¬ä¸€ä¸ªæ•´æ•°ï¼š");
         int a = sc.nextInt();
-        System.out.println("ÇëÊäÈëµÚ¶ş¸öÕûÊı£º");
+        System.out.println("è¯·è¾“å…¥ç¬¬äºŒä¸ªæ•´æ•°ï¼š");
         int b = sc.nextInt();
 
         int num = 0, sum = 0;
@@ -34,8 +34,8 @@ public class forDemo {
                 sum += i;
             }
         }
-        System.out.println(a + "ºÍ" + b + "Ö®¼ä¹²ÓĞ" + num + "¸öÊıÄÜÍ¬Ê±±»3ºÍ5Õû³ı");
-        System.out.println("ÕâĞ©ÊıµÄºÍÊÇ£º" + sum);
+        System.out.println(a + "å’Œ" + b + "ä¹‹é—´å…±æœ‰" + num + "ä¸ªæ•°èƒ½åŒæ—¶è¢«3å’Œ5æ•´é™¤");
+        System.out.println("è¿™äº›æ•°çš„å’Œæ˜¯ï¼š" + sum);
 
 
     }

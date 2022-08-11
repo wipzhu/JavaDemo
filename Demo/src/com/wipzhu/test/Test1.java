@@ -6,17 +6,17 @@ public class Test1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("ÇëÊäÈëÄú×Ô¼ºµÄÊ±÷Ö¶È£º");
+        System.out.println("è¯·è¾“å…¥æ‚¨è‡ªå·±çš„æ—¶é«¦åº¦ï¼š");
         int myFashion = scanner.nextInt();
-        System.out.println("ÇëÊäÈëÄúÏàÇ×¶ÔÏóµÄÊ±÷Ö¶È£º");
+        System.out.println("è¯·è¾“å…¥æ‚¨ç›¸äº²å¯¹è±¡çš„æ—¶é«¦åº¦ï¼š");
         int girlFashion = scanner.nextInt();
 
         boolean result = myFashion > girlFashion;
 
         if (result) {
-            System.out.println("¹§Ï²Äú£¬ÏàÇ×³É¹¦£¡");
+            System.out.println("æ­å–œæ‚¨ï¼Œç›¸äº²æˆåŠŸï¼");
         } else {
-            System.out.println("ºÜÒÅº¶£¬ÄúÏàÇ×Ê§°Ü£¡");
+            System.out.println("å¾ˆé—æ†¾ï¼Œæ‚¨ç›¸äº²å¤±è´¥ï¼");
         }
     }
 }
