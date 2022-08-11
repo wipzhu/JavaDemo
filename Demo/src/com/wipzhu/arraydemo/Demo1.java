@@ -8,7 +8,16 @@ public class Demo1 {
 
         double[] height = {1.82,1.78,1.84,1.73};
 
-        System.out.println(names[2]);
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
+
+        double sum = 0;
+        for (int i = 0; i < height.length; i++) {
+            sum += height[i];
+        }
+
+        System.out.println(sum);
     }
 
 }
