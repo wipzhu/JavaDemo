@@ -1,4 +1,4 @@
-package com.wipzhu.test;
+package com.wipzhu.compareoperator;
 
 import java.util.Scanner;
 
