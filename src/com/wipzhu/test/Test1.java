@@ -2,7 +2,7 @@ package com.wipzhu.test;
 
 import java.util.Scanner;
 
-public class Demo1 {
+public class Test1 {
     public static void main(String[] args) {
         /*卖机票：输入机票原价，淡旺季，折扣力度，计算现价*/
         Scanner sc = new Scanner(System.in);
