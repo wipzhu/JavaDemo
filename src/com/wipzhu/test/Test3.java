@@ -25,7 +25,5 @@ public class Test3 {
             cpt = cpt + chs[index];
         }
         System.out.print(cpt + rd.nextInt(10));
-
-
     }
 }
