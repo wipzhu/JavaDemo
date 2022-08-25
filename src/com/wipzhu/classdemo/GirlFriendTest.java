@@ -2,10 +2,10 @@ package com.wipzhu.classdemo;
 
 public class GirlFriendTest {
     public static void main(String[] args) {
-        GirlFriend gf1 = new GirlFriend();
-        gf1.setName("小美美");
-        gf1.setAge(18);
-        gf1.setGender("萌妹子");
+        GirlFriend gf1 = new GirlFriend("小美美", 18, "萌妹子");
+//        gf1.setName("小美美");
+//        gf1.setAge(18);
+//        gf1.setGender("萌妹子");
         System.out.println(gf1.getName());
         System.out.println(gf1.getAge());
         System.out.println(gf1.getGender());
@@ -13,6 +13,7 @@ public class GirlFriendTest {
         gf1.sleep();
 
         System.out.println("======================");
+//        GirlFriend gf2 = new GirlFriend("小丹丹", 19, "萌妹子");
         GirlFriend gf2 = new GirlFriend();
         gf2.setName("小丹丹");
         gf2.setAge(19);

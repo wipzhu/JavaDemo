@@ -5,6 +5,25 @@ public class GirlFriend {
     private int age = 10;
     private String gender;
 
+    /**
+     * 无参构造
+     */
+    public GirlFriend() {
+
+    }
+
+    /**
+     * 有参构造
+     * @param name
+     * @param age
+     * @param gender
+     */
+    public GirlFriend(String name, int age, String gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
