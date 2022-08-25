@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcd6d660-527f-4a50-90f4-187a909b6e09" name="Changes" comment="" />
+    <list default="true" id="bcd6d660-527f-4a50-90f4-187a909b6e09" name="Changes" comment="classDemo">
+      <change afterPath="$PROJECT_DIR$/src/com/wipzhu/classdemo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wipzhu/classdemo/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +44,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -49,13 +53,13 @@
       <recent name="E:\www\JavaDemo\Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test3">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wipzhu.loopdemo.Test1" />
-      <module name="Demo" />
+  <component name="RunManager" selected="Application.UserTest">
+    <configuration name="GirlFriendTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wipzhu.classdemo.GirlFriendTest" />
+      <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wipzhu.loopdemo.*" />
+          <option name="PATTERN" value="com.wipzhu.classdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wipzhu.loopdemo.Test2" />
-      <module name="Demo" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wipzhu.test.Test5" />
+      <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wipzhu.loopdemo.*" />
+          <option name="PATTERN" value="com.wipzhu.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wipzhu.loopdemo.Test3" />
-      <module name="Demo" />
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wipzhu.test.Test6" />
+      <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wipzhu.loopdemo.*" />
+          <option name="PATTERN" value="com.wipzhu.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="forDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wipzhu.loopdemo.forDemo" />
-      <module name="Demo" />
+    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wipzhu.test.Test7" />
+      <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wipzhu.loopdemo.*" />
+          <option name="PATTERN" value="com.wipzhu.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="whileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wipzhu.loopdemo.whileDemo" />
-      <module name="Demo" />
+    <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wipzhu.classdemo.UserTest" />
+      <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wipzhu.loopdemo.*" />
+          <option name="PATTERN" value="com.wipzhu.classdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.whileDemo" />
-        <item itemvalue="Application.forDemo" />
+        <item itemvalue="Application.UserTest" />
+        <item itemvalue="Application.GirlFriendTest" />
+        <item itemvalue="Application.Test7" />
+        <item itemvalue="Application.Test6" />
+        <item itemvalue="Application.Test5" />
       </list>
     </recent_temporary>
   </component>
@@ -141,11 +145,73 @@
       <workItem from="1659758053466" duration="11911000" />
       <workItem from="1659863328244" duration="1972000" />
       <workItem from="1659878617250" duration="14000" />
+      <workItem from="1661160529520" duration="101000" />
+      <workItem from="1661160747460" duration="19544000" />
     </task>
+    <task id="LOCAL-00001" summary=".gitignore">
+      <created>1660888233447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660888233447</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1661220913444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661220913444</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1661324198103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661324198103</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <created>1661329708856</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661329708856</updated>
+    </task>
+    <task id="LOCAL-00005" summary="classDemo">
+      <created>1661410925498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661410925498</updated>
+    </task>
+    <task id="LOCAL-00006" summary="classDemo">
+      <created>1661411744203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661411744203</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".gitignore" />
+    <MESSAGE value="test" />
+    <MESSAGE value="classDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="classDemo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
