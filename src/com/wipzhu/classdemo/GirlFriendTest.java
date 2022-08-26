@@ -2,7 +2,7 @@ package com.wipzhu.classdemo;
 
 public class GirlFriendTest {
     public static void main(String[] args) {
-        GirlFriend gf1 = new GirlFriend("小美美", 18, "萌妹子");
+        GirlFriend gf1 = new GirlFriend("小美美", 18, "萌妹子","睡觉");
 //        gf1.setName("小美美");
 //        gf1.setAge(18);
 //        gf1.setGender("萌妹子");

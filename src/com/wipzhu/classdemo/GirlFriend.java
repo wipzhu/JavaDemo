@@ -4,6 +4,7 @@ public class GirlFriend {
     private String name;
     private int age = 10;
     private String gender;
+    private String hobby;
 
     /**
      * 无参构造
@@ -18,10 +19,11 @@ public class GirlFriend {
      * @param age
      * @param gender
      */
-    public GirlFriend(String name, int age, String gender) {
+    public GirlFriend(String name, int age, String gender,String hobby) {
         this.name = name;
         this.age = age;
         this.gender = gender;
+        this.hobby = hobby;
     }
 
     public void setName(String name) {
@@ -50,6 +52,14 @@ public class GirlFriend {
 
     public String getGender() {
         return this.gender;
+    }
+
+    public String getHobby() {
+        return hobby;
+    }
+
+    public void setHobby(String hobby) {
+        this.hobby = hobby;
     }
 
     public void sleep() {
