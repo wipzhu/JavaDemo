@@ -2,7 +2,7 @@ package com.wipzhu.classdemo;
 
 import java.util.Random;
 
-public class Role {
+public class GameRole {
     private String name;
     private int blood;
     private char gender;
@@ -31,10 +31,10 @@ public class Role {
             "结果%s一声惨叫，像滩软泥般塌了下去"
     };
 
-    public Role() {
+    public GameRole() {
     }
 
-    public Role(String name, int blood, char gender) {
+    public GameRole(String name, int blood, char gender) {
         this.name = name;
         this.blood = blood;
         this.gender = gender;
@@ -114,7 +114,7 @@ public class Role {
         System.out.println("容貌：" + getFace());
     }
 
-    public void attack(Role role) {
+    public void attack(GameRole role) {
         Random rd = new Random();
         int hurt = rd.nextInt(20) + 1;
 
