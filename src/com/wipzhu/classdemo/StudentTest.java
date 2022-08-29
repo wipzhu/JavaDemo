@@ -20,7 +20,7 @@ public class StudentTest {
         arr[2] = stu3;
 
         // 第1题
-        Student stu4 = new Student(4,  "zhaoliu", 26);
+        Student stu4 = new Student(4, "zhaoliu", 26);
 
         boolean flag = contains(arr, stu4.getId());
         if (flag) {
@@ -30,20 +30,38 @@ public class StudentTest {
             int count = getCount(arr);
             if (count == arr.length) {
                 // 已经存满
-                // 创建一个新数组，将旧数组的元素从朋友到新数组
-
+                // 创建一个新数组，将旧数组的元素copy到新数组
+                Student[] newArr = createNewArr(arr);
+                newArr[count] = stu4;
+                //第2题
+                printArr(newArr);
             } else {
                 // 没有存满
                 arr[count] = stu4;
+                //第2题
+                printArr(arr);
             }
-
         }
     }
 
-    public static void createNewArr(Student[] arr) {
-        Student[] newArr = new Student[arr.length];
+    // 打印数组
+    public static void printArr(Student[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            Student stu = arr[i];
+            if (stu != null) {
+                System.out.println(stu.getId() + " " + stu.getName() + " " + stu.getAge());
+            }
+        }
+    }
 
+    // 创建新数组
+    public static Student[] createNewArr(Student[] arr) {
+        Student[] newArr = new Student[arr.length + 1];
+        for (int i = 0; i < arr.length; i++) {
+            newArr[i] = arr[i];
+        }
 
+        return newArr;
     }
 
     // 获取数组存的元素数量
@@ -61,9 +79,11 @@ public class StudentTest {
     public static boolean contains(Student[] arr, int id) {
         for (int i = 0; i < arr.length; i++) {
             Student stu = arr[i];
-            int stId = stu.getId();
-            if (id == stId) {
-                return true;
+            if (stu != null) {
+                int stId = stu.getId();
+                if (id == stId) {
+                    return true;
+                }
             }
         }
         return false;
