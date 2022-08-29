@@ -7,7 +7,7 @@ public class StudentTest {
         要求2:添加完毕之后，遍历所有学生信息。
         要求3:通过id删除学生信息,如果存在，则删除，如果不存在，则提示删除失败。
         要求4:删除完毕之后，遍历所有学生信息。
-        要求5:查询数组id为"heimae02”的学生，如果存在，则将他的年龄+1岁*/
+        要求5:查询数组id为"2"的学生，如果存在，则将他的年龄+1岁*/
 
         Student[] arr = new Student[3];
 
@@ -49,7 +49,7 @@ public class StudentTest {
         for (int i = 0; i < arr.length; i++) {
             Student stu = arr[i];
             if (stu != null) {
-                System.out.println(stu.getId() + " " + stu.getName() + " " + stu.getAge());
+                System.out.println(stu.getId() + "\t" + stu.getName() + "\t" + stu.getAge());
             }
         }
     }
