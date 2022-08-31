@@ -21,11 +21,11 @@ public class StringDemo1 {
                 break;
             } else {
                 if (i == (maxErrorNum - 1)) {
-                    System.out.println("您的账户已被锁定，请联系管理员");
+                    System.out.println("您的账户已被锁定，请联系管理员！");
                     break;
                 }
 
-                System.out.println("用户名或密码错误，还剩" + (maxErrorNum - i - 1) + "次机会");
+                System.out.println("用户名或密码错误，还剩" + (maxErrorNum - i - 1) + "次机会哦");
             }
         }
     }
