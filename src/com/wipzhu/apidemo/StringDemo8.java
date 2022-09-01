@@ -9,7 +9,13 @@ public class StringDemo8 {
         String s4 = "ddd";
         String s5 = "eee";
 
-        StringBuilder str1 = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
 
+        sb.append("Hello world");
+        sb.reverse();
+        int len = sb.length();
+
+        System.out.println(len);
+        System.out.println(sb);
     }
 }
