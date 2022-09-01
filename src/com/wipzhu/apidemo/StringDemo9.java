@@ -1,6 +1,7 @@
 package com.wipzhu.apidemo;
 
 import java.util.Scanner;
+import java.util.StringJoiner;
 
 public class StringDemo9 {
     public static void main(String[] args) {
@@ -15,11 +16,18 @@ public class StringDemo9 {
 //        }
 
         // 将数组拼接成字符串
-        int[] arr = {1,2,3};
-        String str1 = arrToString(arr);
-        System.out.println(str1);
+//        int[] arr = {1,2,3};
+//        String str1 = arrToString(arr);
+//        System.out.println(str1);
 
+        String[] arr1 = {"Hello", "World"};
+        StringJoiner sj = new StringJoiner(", ", "[", "]");
+        for (int i = 0; i < arr1.length; i++) {
+            sj.add(arr1[i]);
+        }
+        System.out.println(sj);
     }
+
     public static String arrToString(int[] arr) {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
