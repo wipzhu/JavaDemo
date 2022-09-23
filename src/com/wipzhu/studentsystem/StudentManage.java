@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentManage {
-    public static void main(String[] args) {
+    public void startStudentManage() {
         ArrayList<Student> list = new ArrayList<>();
 
         loop:while (true) {
@@ -142,5 +142,17 @@ public class StudentManage {
         }
 
         return -1;
+    }
+
+    /**
+     * 输出注册用户信息
+     * @param list
+     */
+    public static void printRegisteredUser(ArrayList<User> list) {
+        for (int i = 0; i < list.size(); i++) {
+            User registeredUser = list.get(i);
+            System.out.println(registeredUser.getUsername() + ", " + registeredUser.getPassword()
+                    + ", " + registeredUser.getPersonId() + ", " + registeredUser.getPhoneNumber());
+        }
     }
 }
