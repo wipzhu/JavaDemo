@@ -75,7 +75,7 @@ public class IDCardUtil {
             System.out.println("身份证地区编码错误!");
             return false;
         }
-        if (!isVarifyCode(numStr, idStr)) {
+        if (!isVerifyCode(numStr, idStr)) {
             System.out.println("身份证校验码无效，不是合法的身份证号码!");
             return false;
         }
@@ -88,7 +88,7 @@ public class IDCardUtil {
      * 2 1 6 3 7 9 10 5 8 4 2 2. 用11对计算结果取模 Y = mod(S, 11) 3. 根据模的值得到对应的校验码
      * 对应关系为： Y值： 0 1 2 3 4 5 6 7 8 9 10 校验码： 1 0 X 9 8 7 6 5 4 3 2
      */
-    private static boolean isVarifyCode(String numStr, String idStr) {
+    private static boolean isVerifyCode(String numStr, String idStr) {
         String[] varifyCode = { "1", "0", "X", "9", "8", "7", "6", "5", "4", "3", "2" };
         String[] wi = { "7", "9", "10", "5", "8", "4", "2", "1", "6", "3", "7", "9", "10", "5", "8", "4", "2" };
         int sum = 0;
