@@ -18,9 +18,5 @@ public class Test {
 //        Zi zi = new Zi();
 //        zi.ziShow();
 
-        System.out.println("===========================");
-
-        Student s = new Student();
-        s.lunch();
     }
 }
