@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentManage {
+    private static final String ADD_STUDENT = "1";
+    private static final String DELETE_STUDENT = "2";
+    private static final String UPDATE_STUDENT = "3";
+    private static final String QUERY_STUDENT = "4";
+    private static final String EXIT = "5";
+
     public void startStudentManage() {
         ArrayList<Student> list = new ArrayList<>();
 
@@ -20,11 +26,11 @@ public class StudentManage {
             String choose = sc.next();
 
             switch (choose) {
-                case "1" -> addStudent(list);
-                case "2" -> deleteStudent(list);
-                case "3" -> updateStudent(list);
-                case "4" -> queryStudent(list);
-                case "5" -> {
+                case ADD_STUDENT -> addStudent(list);
+                case DELETE_STUDENT -> deleteStudent(list);
+                case UPDATE_STUDENT -> updateStudent(list);
+                case QUERY_STUDENT -> queryStudent(list);
+                case EXIT -> {
                     //break loop;
                     System.exit(0);//停止虚拟机运行
                 }

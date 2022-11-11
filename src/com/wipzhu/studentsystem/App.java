@@ -9,20 +9,26 @@ import java.util.regex.Pattern;
 import static com.wipzhu.studentsystem.IDCardUtil.isIdCardValidate;
 
 public class App {
+
+    private static final String LOGIN = "1";
+    private static final String REGISTER = "2";
+    private static final String FORGET_PWD = "3";
+    private static final String EXIT = "4";
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         ArrayList<User> list = new ArrayList<>();
         while (true) {
             System.out.println("-------------------------欢迎来到学生管理系统-------------------------");
-            System.out.println("请选择操作：1登录 2注册 3忘记密码 4退出");
+            System.out.println("请选择操作：1-登录 2-注册 3-忘记密码 4-退出");
 
             String opt = sc.next();
             switch (opt) {
-                case "1" -> login(list);
-                case "2" -> register(list);
-                case "3" -> forgetPassword(list);
-                case "4" -> {
+                case LOGIN -> login(list);
+                case REGISTER -> register(list);
+                case FORGET_PWD -> forgetPassword(list);
+                case EXIT -> {
                     System.out.println("谢谢使用，再见");
                     System.exit(0);
                 }
